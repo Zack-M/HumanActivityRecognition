@@ -9,12 +9,24 @@ Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible t
 More information is available from the website here: http://groupware.les.inf.puc-rio.br/har 
 (see the section on the Weight Lifting Exercise Dataset).
 
-Data used is similar to The Human Activity Recognition database that was built from the recordings of 30 study participants performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed.
+**Dataset**: is similar to The Human Activity Recognition database that was built from the recordings of 30 study participants performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed.
 
-I have used classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
+**Methodology**: Classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
+Accuracy measured by confusion matrix (table below), kappa etc.
+
+**Accuracy**: 0.9937
+Prediction    A    B    C    D    E
+         A 1672    6    0    0    0
+         B    1 1129    3    1    0
+         C    0    4 1020   11    2
+         D    0    0    3  951    2
+         E    1    0    0    1 1078
+
+
+
 **Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B    
-(predicted by RF model with 3-fold CV, and an accuracy of 0.9937)
+(predicted by best RF model with 3-fold CV. Expected OOS error < 1% )
 
 **Full code**: _HAR_classe.R_ file in this repo<br/> 
 **Executive summary**: http://rpubs.com/ZackM/HAR-pred
