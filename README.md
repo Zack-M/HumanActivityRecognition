@@ -14,8 +14,8 @@ More information is available from the website here: http://groupware.les.inf.pu
 **Methodology**: Classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
 Accuracy measured by confusion matrix (table below), kappa etc.
-
 **Accuracy**: 0.9937
+                 Reference
 Prediction    A    B    C    D    E
          A 1672    6    0    0    0
          B    1 1129    3    1    0
