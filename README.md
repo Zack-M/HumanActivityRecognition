@@ -14,7 +14,7 @@ More information is available from the website here: http://groupware.les.inf.pu
 **Methodology**: Classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
 Accuracy measured by confusion matrix (table image below), kappa etc.  
-**Accuracy**: 0.9937
+**Accuracy**: 0.99
 
 ![alt text](https://github.com/Zack-M/HumanActivityRecognition/blob/master/ConfusionMatrix%20RStudio%202017-10-26%2003-02-27.jpg)
 
