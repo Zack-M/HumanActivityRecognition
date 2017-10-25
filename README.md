@@ -14,8 +14,8 @@ Data used is similar to The Human Activity Recognition database that was built f
 I have used classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
 
-Full code including the analysis & results may be found in the **HAR_classe.R** file in this repo.  
-Executive summary of the project & analysis may be found here: http://rpubs.com/ZackM/HAR-pred
+Full code: **HAR_classe.R** file in this repo.  
+Executive summary: http://rpubs.com/ZackM/HAR-pred
 
 
 Thank you for your time.
