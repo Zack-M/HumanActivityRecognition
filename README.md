@@ -15,14 +15,13 @@ More information is available from the website here: http://groupware.les.inf.pu
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
 Accuracy measured by confusion matrix (table below), kappa etc.
 **Accuracy**: 0.9937
-                 Reference
-Prediction    A    B    C    D    E
-         A 1672    6    0    0    0
-         B    1 1129    3    1    0
-         C    0    4 1020   11    2
-         D    0    0    3  951    2
-         E    1    0    0    1 1078
-
+`                 Reference`
+`Prediction    A    B    C    D    E`
+ `        A 1672    6    0    0    0`
+ `        B    1 1129    3    1    0`
+  `       C    0    4 1020   11    2`
+  `       D    0    0    3  951    2`
+ `        E    1    0    0    1 1078`
 
 
 **Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B    
