@@ -11,5 +11,16 @@ More information is available from the website here: http://groupware.les.inf.pu
 
 Data used is similar to The Human Activity Recognition database that was built from the recordings of 30 study participants performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed.
 
+Object for this project is to predict activity "classe" variable based on other 150+ probable predictors in the data.
+I have used classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
+Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
+
+Executive summary of the project & analysis may be found here: http://rpubs.com/ZackM/HAR-pred
 
 
+Thank you for your time.
+
+Best,
+Zack
+
+p.s. Over and above the modeling experience, I have started using devices with accelerometers & GPS more often!
