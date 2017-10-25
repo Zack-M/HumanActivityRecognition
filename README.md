@@ -16,7 +16,7 @@ Model with the highest accuracy level (based on training data) was used for pred
 **Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B    
 (predicted by RF model with 3-fold CV, and an accuracy of 0.9937)
 
-**Full code**: _HAR_classe.R_ file in this repo     
+**Full code**: _HAR_classe.R_ file in this repo . 
 **Executive summary**: http://rpubs.com/ZackM/HAR-pred
 
 
