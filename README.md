@@ -16,7 +16,7 @@ Model with the highest accuracy level (based on training data) was used for pred
 Accuracy measured by confusion matrix (table below), kappa etc.  
 **Accuracy**: 0.9937
 
-
+![alt text](https://github.com/Zack-M/HumanActivityRecognition/blob/master/ConfusionMatrix%20RStudio%202017-10-26%2003-02-27.jpg)
 
 **Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B    
 (predicted by best RF model with 3-fold CV. Expected OOS error < 1% )
