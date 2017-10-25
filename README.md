@@ -13,7 +13,7 @@ Data used is similar to The Human Activity Recognition database that was built f
 
 I have used classification & ML techniques like Random Forests, Stochastic Gradient Boosting, PCA etc.
 Model with the highest accuracy level (based on training data) was used for predicting "classe" categories for the test data.
-**Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B . 
+**Expected test "classe" categories**: B A B A A E D B A A B C B A E E A B B B    
 (predicted by RF model with 3-fold CV, and an accuracy of 0.9937)
 
 **Full code**: _HAR_classe.R_ file in this repo.  
